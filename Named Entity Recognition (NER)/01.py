@@ -11,7 +11,7 @@ import pandas as pd
 import re
 
 # Path to the folder with CSV files
-data_path = r'C:\Users\Administrator\Downloads\NLPForHealthcare\mimic-iii'
+data_path = r'data/your_file\mimic-iii'
 
 # Load all CSV files into a dictionary of DataFrames
 data_files = {}
