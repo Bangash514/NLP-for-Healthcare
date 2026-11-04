@@ -26,7 +26,7 @@ logging.basicConfig(level=logging.ERROR)
 transformers.logging.set_verbosity_error()
 
 # Specify the new path to your file
-file_path = r"E:\PhD 2022-26\西安交通大学\2024-25\NLPForHealthcare\DataPath\外科5-14000.csv"
+file_path = r"data/your_file.csv"
 
 # Step 1: Detect file encoding with chardet
 with open(file_path, 'rb') as file:
@@ -98,7 +98,7 @@ if data is not None:
 
     # Set up training arguments and Trainer API with 2 epochs
     training_args = TrainingArguments(
-        output_dir=r'E:\PhD 2022-26\西安交通大学\2024-25\NLPForHealthcare\DataPath\results',  # New output directory
+        output_dir=r'data/your_file.csv',  # New output directory
         num_train_epochs=2,              # number of training epochs set to 2
         per_device_train_batch_size=4,   # reduced batch size for training
         per_device_eval_batch_size=4,    # reduced batch size for evaluation
