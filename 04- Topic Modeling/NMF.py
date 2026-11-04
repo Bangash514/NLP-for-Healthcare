@@ -15,7 +15,7 @@ import logging
 logging.basicConfig(level=logging.ERROR)
 
 # Specify the path to your file
-file_path = r"path"
+file_path = r"data/your_file.csv"
 
 # Step 1: Detect file encoding with chardet
 with open(file_path, 'rb') as file:
