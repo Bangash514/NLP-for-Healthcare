@@ -215,7 +215,7 @@ class HealthcareNLPTrainer:
 
 # Define the main function at the end of the code
 def main():
-    file_path = r"E:\PhD 2022-26\西安交通大学\2024-25\NLPForHealthcare\DataPath\外科5-14000.csv"
+    file_path = r"data/your_file.csv"
     trainer = HealthcareNLPTrainer(file_path)
     model = trainer.train_model()
     trainer.plot_training_history()
