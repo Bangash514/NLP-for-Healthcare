@@ -43,7 +43,7 @@ class AttentionLayer(Layer):
         return context_vector
 
 # Load your data
-file_path = r"E:\PhD 2022-26\西安交通大学\2024-25\NLPForHealthcare\DataPath\外科5-14000.csv"
+file_path = r"data/your_file.csv"
 df = pd.read_csv(file_path, encoding='gb18030')
 print("CSV file loaded successfully.")
 
