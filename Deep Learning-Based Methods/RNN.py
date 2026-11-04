@@ -1,4 +1,5 @@
-
+#BEN from Pakistan,
+#PhD work
 
 import pandas as pd
 import numpy as np
@@ -218,7 +219,7 @@ class HealthcareNLPTrainer:
 
 # Usage example
 def main():
-    file_path = r"E:\PhD 2022-26\西安交通大学\2024-25\NLPForHealthcare\DataPath\外科5-14000.csv"
+    file_path = r"data/your_file.csv"
     trainer = HealthcareNLPTrainer(file_path)
     model = trainer.train_model()
     trainer.plot_training_history()
