@@ -66,7 +66,7 @@ if data is not None:
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42, stratify=None)
     
     # Define the local path to the downloaded BERT model files
-    local_model_path = r"E:\PhD 2022-26\西安交通大学\2024-25\NLPForHealthcare\DataPath\bert-base-uncased"
+    local_model_path = r" "
 
     # Load BERT tokenizer and model from local files
     tokenizer = BertTokenizer.from_pretrained(local_model_path)
@@ -95,7 +95,7 @@ if data is not None:
 
     # Set up training arguments and Trainer API with 1 epoch for quick testing
     training_args = TrainingArguments(
-        output_dir=r'E:\PhD 2022-26\西安交通大学\2024-25\NLPForHealthcare\DataPath\results',  # New output directory
+        output_dir=r' ',  # New output directory
         num_train_epochs=1,              # number of training epochs set to 1
         per_device_train_batch_size=4,   # reduced batch size for training
         per_device_eval_batch_size=4,    # reduced batch size for evaluation
