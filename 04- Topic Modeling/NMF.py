@@ -15,7 +15,7 @@ import logging
 logging.basicConfig(level=logging.ERROR)
 
 # Specify the path to your file
-file_path = r"E:\PhD 2022-26\西安交通大学\2024-25\NLPForHealthcare\DataPath\外科5-14000.csv"
+file_path = r"path"
 
 # Step 1: Detect file encoding with chardet
 with open(file_path, 'rb') as file:
