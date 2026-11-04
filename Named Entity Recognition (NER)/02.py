@@ -11,7 +11,7 @@ import re
 import pandas as pd
 
 # Path to the folder with CSV files
-data_path = r'C:\Users\Administrator\Downloads\NLPForHealthcare\mimic-iii'
+data_path = r'C:\Users\mimic-iii'
 
 # Define dictionaries and patterns for entity recognition
 drug_dict = ['aspirin', 'ibuprofen', 'acetaminophen', 'morphine', 'xenon']  # Add known drug names
