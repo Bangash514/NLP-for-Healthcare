@@ -18,7 +18,7 @@ from sklearn.metrics import accuracy_score, classification_report
 from imblearn.over_sampling import SMOTE
 
 # Specify the path to your CSV file
-file_path = r"E:\PhD 2022-26\西安交通大学\2024-25\NLPForHealthcare\DataPath\外科5-14000.csv"
+file_path = r"path.csv"
 
 # Load the CSV file
 try:
