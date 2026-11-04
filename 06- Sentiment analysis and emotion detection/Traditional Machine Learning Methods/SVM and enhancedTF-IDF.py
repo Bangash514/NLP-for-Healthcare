@@ -14,7 +14,7 @@ from sklearn.metrics import accuracy_score, classification_report
 from sklearn.utils import resample
 
 # Specify the path to your CSV file
-file_path = r"E:\PhD 2022-26\西安交通大学\2024-25\NLPForHealthcare\DataPath\外科5-14000.csv"
+file_path = r"\外科5-14000.csv"
 
 # Load the CSV file
 try:
