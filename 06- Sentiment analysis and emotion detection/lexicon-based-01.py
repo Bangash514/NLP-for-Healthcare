@@ -6,7 +6,7 @@ import numpy as np
 from tensorflow.keras.utils import load_img, img_to_array
 
 # Directory containing images
-image_dir = r"E:/PhD 2022-26/陕西师范大学/Second Year 2024-25/ExperimentsforImages/HAM10000_images_part_1"
+image_dir = r"path/file.csv"
 
 # Function to preprocess images
 def preprocess_images(image_directory):
