@@ -69,7 +69,7 @@ if data is not None:
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42, stratify=None)
     
     # Define the local path to the downloaded BERT model files
-    local_model_path = r"E:\PhD 2022-26\西安交通大学\2024-25\NLPForHealthcare\DataPath\bert-base-uncased"
+    local_model_path = r"path/file.csv"
 
     # Load BERT tokenizer and model from local files
     tokenizer = BertTokenizer.from_pretrained(local_model_path)
