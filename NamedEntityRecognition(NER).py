@@ -3,8 +3,6 @@
 Created on Mon Nov  4 20:13:51 2024
 
 #Bangash PhD Scholar
-#Xi'an Jiaotong University
-
 
 import os
 import pandas as pd
