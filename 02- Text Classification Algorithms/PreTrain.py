@@ -10,7 +10,7 @@ import chardet
 import csv
 
 # Specify the path to your file
-file_path = r"C:\Users\Administrator\Downloads\NLPForHealthcare\DataPath\外科5-14000.csv"
+file_path = r"data/your_file.csv"
 
 # Step 1: Detect file encoding with chardet
 with open(file_path, 'rb') as file:
