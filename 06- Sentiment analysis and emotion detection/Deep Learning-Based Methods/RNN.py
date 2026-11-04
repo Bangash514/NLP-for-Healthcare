@@ -1,4 +1,6 @@
-
+# BEN 2026-11-04
+# Change aim: RNN text classifier for Chinese medical question text (jieba word segmentation).
+# File: RNN.py
 
 import pandas as pd
 import numpy as np
